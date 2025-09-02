@@ -1,0 +1,25 @@
+// See https://aka.ms/new-console-template for more information
+Console.Write("Digite o número total de eleitores: ");
+
+int totalEleitores = int.Parse(Console.ReadLine());
+
+Console.Write("Digite o número de votos brancos: ");
+
+int votosBrancos = int.Parse(Console.ReadLine());
+
+Console.Write("Digite o número de votos nulos: ");
+
+int votosNulos = int.Parse(Console.ReadLine());
+
+Console.Write("Digite o número de votos válidos: ");
+
+int votosValidos = int.Parse(Console.ReadLine());
+
+double percBrancos = (votosBrancos * 100.0) / totalEleitores;
+double percNulos = (votosNulos * 100.0) / totalEleitores;
+double percValidos = (votosValidos * 100.0) / totalEleitores;
+
+Console.WriteLine("\nPercentuais em relação ao total de eleitores:");
+Console.WriteLine("Votos Brancos: " + percBrancos.ToString("F2") + "%");
+Console.WriteLine("Votos Nulos:   " + percNulos.ToString("F2") + "%");
+Console.WriteLine("Votos Válidos: " + percValidos.ToString("F2") + "%");
