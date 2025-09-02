@@ -1,0 +1,15 @@
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+int A = 10;
+int B = 20;
+Console.WriteLine("Valores antes da troca");
+Console.WriteLine("A = " + A);
+Console.WriteLine("A = " + B);
+
+
+int temp = A;
+A = B;
+B = temp;
+Console.WriteLine("\nValores depois da troca");
+Console.WriteLine("A = " + A);
+Console.WriteLine("B = " + B);
