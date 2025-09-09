@@ -1,0 +1,13 @@
+// See https://aka.ms/new-console-template for more information
+using System;
+Console.Write("Digite um número (não pode ser zero): ");
+int numero = int.Parse(Console.ReadLine());
+
+if (numero == 0)
+Console.WriteLine("Valor inválido! Zero não é permitido.");
+else if (numero > 0)
+
+    Console.WriteLine("O número é POSITIVO.");
+
+else
+  Console.WriteLine("O número é NEGATIVO.");
