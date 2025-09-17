@@ -1,0 +1,8 @@
+[Uploading atv 14.cs…]()// See https://aka.ms/new-console-template for more information
+Console.Write("Digite um valor N (maior que zero): ");
+int N = int.Parse(Console.ReadLine());
+
+Console.WriteLine("\nValores de 1 até " + N + ":");
+
+for (int i = 1; i <= N; i++) ;
+
