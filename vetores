@@ -1,0 +1,25 @@
+int quantidade = 0;
+
+Console.WriteLine("Digite a quantidade de pessoas que deseja icluir: ");
+
+quantidade = int.Parse(Console.ReadLine());
+
+string[] nomes = new string[quantidade];
+
+for (int i = 0; i < nomes.Length; i++)
+{
+    Console.WriteLine($"Digite o {i + 1}");
+    nomes[i] = Console.ReadLine();
+
+}
+Console.WriteLine("Nomes incluidos no Vetor NOMES[] ");
+
+Console.WriteLine("***********************************");
+
+for (int i = 0; i < nomes.Length; i++)
+{
+    Console.WriteLine($"Posição [{i}] ={nomes[i]} ");
+
+}
+Console.WriteLine("*************************");
+
